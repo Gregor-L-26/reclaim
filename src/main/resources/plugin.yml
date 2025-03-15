@@ -1,0 +1,19 @@
+name: reclaim
+version: '1.0-SNAPSHOT'
+main: me.grapedev.reclaim.Reclaim
+api-version: '1.21'
+commands:
+  reclaim:
+    description: "claims rank rewards"
+    usage: "/reclaim"
+
+permissions:
+    reclaim.use:
+        description: "Allows the player to use the /reclaim command"
+        default: op
+    reclaim.reset:
+        description: "Allows the player to reset their reclaim"
+        default: op
+    reclaim.reset.all:
+        description: "Allows the player to reset all players' reclaim"
+        default: op

@@ -1,0 +1,8 @@
+PLAYERS-ONLY: "§cOnly players can use that command"
+ALREADY-CLAIMED: "§cYou have already claimed your reclaim"
+RECLAIM-SUCCESS: "§aYou have successfully claimed your ranks rewards!"
+NO-PERMISSION: "§cYou do not have permission to use this command"
+PLAYER-NOT-FOUND: "§cPlayer not found, check if they are online"
+RESET-RECLAIM: "§aSuccessfully reset the player's reclaim"
+RESET-RECLAIM-ALL: "§aSuccessfully reset all players' reclaim"
+INVALID-RESET-USAGE: "§cInvalid usage, use /reclaim reset <player>"

@@ -1,0 +1,16 @@
+settings:
+  # Only allows the user to claim the reclaim of the highest rank they own
+  reclaim-for-all-ranks: false
+
+Ranks:
+  # Highest rank in config will be the rank with priority
+  # For example, the highest rank will only be claimed if the reclaim-for-all-ranks is false
+  vip:
+    Permission: "reclaim.vip"
+    # Enter the commands that the console will run
+    # Can enter multiple commands
+    # if the user has the above rank, and types /reclaim, the console will send the following commands
+    # do not use "/"
+    Commands:
+      - "say %player% has reclaimed their ranks rewards!"
+      - "give %player% diamond"
